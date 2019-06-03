@@ -11,7 +11,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 //向外暴露一个打包的配置对象
 module.exports = {
 
-  mode:'development', //    production      //webpack 4.x新增属性
+  mode:'development', //    production 可以进行代码压缩     //webpack 4.x新增属性
 
   //webpack 4.x，约定默认的打包入口路径是src -> index.js
   plugins:[

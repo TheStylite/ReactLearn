@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';   //创建好的组件和虚拟DOM放到页面
 
 
 //第一种创建组件的方式
-function Hello(props){      //用props接收传过来的数据
+function Hello(props){      //用props接收传过来的数据        .//只读属性
   //如果在一个组件中return一个null，则表示此组件什么都不会渲染
   // return null;
 
